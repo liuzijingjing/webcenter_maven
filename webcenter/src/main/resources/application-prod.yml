@@ -1,0 +1,17 @@
+server:
+    port : 9090
+
+spring:
+    dubbo:
+        application.name : annotation-provider
+        registry.address : zookeeper://127.0.0.1:2181
+        protocol.name : dubbo
+        protocol.port : 20880
+        scan : com.tydic.webcenter
+    mvc:
+        view:
+            prefix: /templates/
+            suffix: .ftl
+    freemarker:
+        cache: false
+        request-context-attribute: request

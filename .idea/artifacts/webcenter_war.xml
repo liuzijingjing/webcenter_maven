@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webcenter:war">
+    <output-path>$PROJECT_DIR$/webcenter/target</output-path>
+    <root id="archive" name="webcenter.war">
+      <element id="artifact" artifact-name="webcenter:war exploded" />
+    </root>
+  </artifact>
+</component>

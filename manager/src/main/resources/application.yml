@@ -1,0 +1,9 @@
+server:
+    port: 8081
+spring:
+    dubbo:
+        application.name : webcenter
+        registry.address : zookeeper://127.0.0.1:2181
+        protocol.name : dubbo
+        protocol.port : 20881
+        scan : com.tydic.webcenter.manager.service

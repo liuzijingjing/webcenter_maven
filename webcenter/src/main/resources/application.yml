@@ -1,0 +1,37 @@
+server:
+    port : 9090
+    context-path: #/webcenter/
+
+logging :
+#    path : /var/log
+#    config : /logback.xml
+    level:
+        com.tydic: DEBUG
+        org.hibernate : ERROR
+        org.springframework.web : DEBUG
+
+spring:
+    dubbo:
+        application.name : webcenter
+        registry.address : zookeeper://127.0.0.1:2181
+        protocol.name : dubbo
+        protocol.port : 20881
+        scan : com.tydic.webcenter
+    mvc:
+        view:
+            prefix: /templates/
+            suffix: .ftl
+    freemarker:
+        cache: false
+        request-context-attribute: request
+
+#用户名 密码配置
+#security :
+#        user :
+#            name : admin
+#            password : test
+
+#指定log的配置文件，以及记录Spring Boot的log级别
+#logging:
+#    config : classpath:logback-spring.xml
+#    level.org.springframework.web: INFO

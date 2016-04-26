@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-api/manager-api.iml" filepath="$PROJECT_DIR$/manager-api/manager-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistence/persistence.iml" filepath="$PROJECT_DIR$/persistence/persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistence-api/persistence-api.iml" filepath="$PROJECT_DIR$/persistence-api/persistence-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-api/service-api.iml" filepath="$PROJECT_DIR$/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcenter/webcenter.iml" filepath="$PROJECT_DIR$/webcenter/webcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcenter_maven.iml" filepath="$PROJECT_DIR$/webcenter_maven.iml" />
+    </modules>
+  </component>
+</project>
