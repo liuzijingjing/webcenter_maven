@@ -47,9 +47,15 @@
         <oval.version>1.81</oval.version>
         <slf4j.version>1.7.21</slf4j.version>
         <jsqlparser.version>0.9.4</jsqlparser.version>
+        <commons-lang3.version>3.1</commons-lang3.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

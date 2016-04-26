@@ -7,7 +7,6 @@ import com.tydic.webcenter.common.utils.Response;
 import com.tydic.webcenter.common.utils.SystemConstant;
 import com.tydic.webcenter.common.utils.VerifyUtil;
 import com.tydic.webcenter.persistence.mapper.CountryMapper;
-import com.tydic.webcenter.persistence.model.CityDO;
 import com.tydic.webcenter.persistence.model.CountryDO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
