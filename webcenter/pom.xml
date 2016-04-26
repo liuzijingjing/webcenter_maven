@@ -75,10 +75,10 @@
                 <directory>/src/main/resources</directory>
                 <filtering>true</filtering>
                 <excludes>
-                    <exclude>application.properties</exclude>
-                    <exclude>application-dev.properties</exclude>
-                    <exclude>application-test.properties</exclude>
-                    <exclude>application-prod.properties</exclude>
+                    <exclude>application.yml</exclude>
+                    <exclude>application-dev.yml</exclude>
+                    <exclude>application-test.yml</exclude>
+                    <exclude>application-prod.yml</exclude>
                 </excludes>
             </resource>
             <resource>
@@ -86,7 +86,7 @@
                 <filtering>true</filtering>
                 <includes>
                     <include>application-${profileActive}.properties</include>
-                    <include>application.properties</include>
+                    <include>application.yml</include>
                 </includes>
             </resource>
         </resources>
